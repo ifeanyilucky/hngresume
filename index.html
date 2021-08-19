@@ -1,94 +1,216 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ifeanyi Lucky</title>
+    <title>Ifeanyi Lucky Resume</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Ifeanyi Lucky Resume" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/kube.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/custom.min.css" />
+    <link rel="shortcut icon" href="img/my_hng_internship.png" />
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      href="https://fonts.googleapis.com/css?family=Playfair+Display+SC:700"
       rel="stylesheet"
-      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
-      crossorigin="anonymous"
+      type="text/css"
     />
-    <link rel="stylesheet" href="src/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <style>
+      .intro h1:before {
+        content: "IFEANYI";
+      }
+    </style>
   </head>
   <body>
-    <section class="container-fluid">
-      <div class="nav">
-        <div class="nav-item">
-          <h4>Ifeanyi Lucky</h4>
-          <h6 class="text-muted">Frontend Developer</h6>
-        </div>
-        <div class="nav-item">
-          <p>
-            <span class="text-muted"
-              ><span class="active">●&nbsp;</span>Currently interning at</span
-            >
-          </p>
-          <a href="https://internship.zuri.team/" target="_blank">
-            <img
-              src="./src/images/brand-logo.png"
-              class="hng-logo"
-              alt="hng-internship"
-            />
-          </a>
-        </div>
+    <!-- Navigation -->
+    <div class="main-nav">
+      <div class="container">
+        <header class="group top-nav">
+          <div
+            class="navigation-toggle"
+            data-tools="navigation-toggle"
+            data-target="#navbar-1"
+          >
+            <span>
+              <a
+                class="logo"
+                href="https://internship.zuri.training/"
+                target="_blank"
+                ><img
+                  src="./img/my_hng_internship.png"
+                  alt="HNG-INTERNSHIP"
+                  width="80" /></a
+            ></span>
+          </div>
+          <nav id="navbar-1" class="navbar item-nav">
+            <ul>
+              <li class="active"><a href="#about">About</a></li>
+              <li><a href="#experiences">Experiences</a></li>
+              <li><a href="#education">Education</a></li>
+              <li><a href="#skills">Skills</a></li>
+            </ul>
+          </nav>
+        </header>
       </div>
-    </section>
-    <div class="container mb-5">
-      <div class="row">
-        <div class="col-10 mx-auto my-5">
-          <div class="hero-header pb-4">
-            I'm Ifeanyi Lucky, a
-            <span class="text-span-24">Frontend</span>
-            <span class="text-span-25">Developer</span> based in Lagos, Nigeria.
-            I eat JavaScript and CSS for breakfast and wash it down with a glass
-            of NextJS. I write clean code and I have a passion for the open
-            source community.
+    </div>
+
+    <!-- Introduction -->
+    <div class="intro section" id="about">
+      <div class="container">
+        <p>Hello world, I’m IFEANYI</p>
+        <div class="units-row units-split wrap">
+          <div class="unit-20">
+            <img src="img/ifeany.JPG" alt="Avatar" />
           </div>
-          <div class="actions">
-            <div class="buttons">
-              <a href="mailto:ifeanyilucky360@gmail.com"
-                ><button>
-                  <span class="text-span-11">contact me </span>
-                </button></a
-              >
-              <a href="#">
-                <button>My Resume</button>
-              </a>
-            </div>
-            <span class="text-block-6 pt-2">
-              Looking for help? Feel free to drop an email
-            </span>
+          <div class="unit-80">
+            <h1>
+              I live in<br />
+              Lagos, Nigeria.
+            </h1>
           </div>
+          <p>
+            Frontend developer and Javascript engineer, I eat JavaScript and CSS
+            for breakfast and wash it down with a glass of NextJS. I write clean
+            code and I have a passion for the open source community.
+          </p>
         </div>
       </div>
     </div>
-    <section class="container-fluid">
-      <div class="footer">
-        <div class="footer-text">
-          Elsewhere -
-          <a
-            href="http://www.github.com/ifeanyilucky"
-            target="_blank"
-            class="link-2"
-            ><span class="text-span-13-copy">Github</span></a
-          >,
-          <a
-            href="https://www.instagram.com/codack10"
-            target="_blank"
-            class="link-2"
-            ><span class="text-span-13-copy-2">Instagram</span></a
-          >,
-          <a
-            href="https://twitter.com/ifeanyilucas"
-            target="_blank"
-            class="link-3"
-            ><span class="text-span-15-copy-2">Twitter</span></a
-          >
+
+    <!-- Work Experience -->
+    <div class="work section second" id="experiences">
+      <div class="container">
+        <h1>Work<br />Experience</h1>
+        <ul class="work-list">
+          <li>August 2021 - Present</li>
+          <li>
+            <a href="https://internship.zuri.training/" target="_blank"
+              >HNG INTERNSHIP 8.0</a
+            >
+          </li>
+          <li>Frontend Developer</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Award & Achievements -->
+    <div class="section second" id="education">
+      <div class="container">
+        <h1>Education</h1>
+        <ul class="award-list list-flat">
+          <li>Feb 2020 - Present</li>
+          <li>Lagos State University</li>
+          <li>B.Sc</li>
+        </ul>
+        <ul class="award-list list-flat">
+          <li>2015 -2018</li>
+          <li>Yemi International School</li>
+          <li>Senior School Certificate Examination</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- SKILSS -->
+    <div class="section second" id="skills">
+      <div class="container">
+        <h1>Skills</h1>
+        <ul class="list-flat">
+          <li>
+            Has strong knowledge of design principles, typography, user
+            interfaces, web standards and usability
+          </li>
+          <li>
+            Ability to produce quality work products with attention to detail
+          </li>
+          <li>
+            Basic knowledge of image authoring tools, to be able to crop,
+            resize, or perform small adjustments on an image
+          </li>
+          <li>
+            Detail-oriented work ethic with strong commitment to code quality
+          </li>
+          <li>Basic SEO knowledge</li>
+          <li>Ability to write maintainable, modular clean code</li>
+          <li>
+            Knowledge of usability principles, cross-browser compatibility, and
+            HTML document architecture
+          </li>
+          <li>
+            Ability to write high-performance, reusable code for UI components
+          </li>
+          <li>Impeccable attention to detail</li>
+        </ul>
+      </div>
+    </div>
+    <!-- Technical Skills -->
+    <div class="skills section second" id="skills">
+      <div class="container">
+        <h1>Technical<br />Skills</h1>
+        <ul class="skill-list list-flat">
+          <li>Web Technology</li>
+          <li>HTML / CSS / SASS / Javascript</li>
+        </ul>
+        <ul class="skill-list list-flat">
+          <li>Design</li>
+          <li>Adobe Photoshop / Adobe XD / Adobe Illustrator</li>
+        </ul>
+        <ul class="skill-list list-flat">
+          <li>Library</li>
+          <li>React JS</li>
+          <li>JQuery</li>
+        </ul>
+        <ul class="skill-list list-flat">
+          <li>Framework</li>
+          <li>NextJS</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Quote -->
+
+    <footer>
+      <div class="container">
+        <div class="units-row">
+          <div class="unit-50">
+            <p>
+              Handcrafted by Ifeanyi Lucky. &nbsp;
+              <span></span>
+                <a href="https://internship.zuri.traning/" target="_blank">
+                  <img
+                    src="./img/my_hng_internship.png"
+                    alt="HNG-INTERNSHIP"
+                    width="80" /></a
+              ></span>
+            </p>
+          </div>
+          <div class="unit-50">
+            <ul class="social list-flat right">
+              <li>
+                <a href="mailto:ifeanyilucky360@gmail.com"
+                  ><i class="fa fa-send"></i
+                ></a>
+              </li>
+              <li>
+                <a href="http://twitter.com/ifeanyilucas"
+                  ><i class="fa fa-twitter"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-    </section>
+    </footer>
+
+    <!-- Javascript -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/kube.min.js"></script>
+    <script src="js/site.js"></script>
+    <script></script>
   </body>
 </html>
